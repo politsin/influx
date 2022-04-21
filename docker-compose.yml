@@ -1,7 +1,7 @@
 version: "3"
 services:
   influx:
-    image: "quay.io/influxdb/influxdb:v2.2.0"
+    image: influxdb:2.2
     hostname: "influx"
     container_name: influx
     restart: always
